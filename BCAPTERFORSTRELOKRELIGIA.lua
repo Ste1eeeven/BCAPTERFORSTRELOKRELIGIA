@@ -7,6 +7,7 @@ local main_color_output = 0x3c3c3c
 
 ----------------------------AVTOUPDATE-------------------------------
 local dlstatus = require('moonloader').download_status
+local inicfg = require 'inicfg'
 local script_vers = 11
 local script_vers_text = "11.00"
 update_state = false
